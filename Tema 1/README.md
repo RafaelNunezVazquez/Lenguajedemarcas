@@ -37,4 +37,6 @@ Content in the first column | Content in the second column
 
 Nombre de la actividad | Descripcion
 ---------------------- | -----------
-[Galeria]
+[Ejercicio1](/tema1/Lenguajedemarcas.html)|Ejercicio 1
+[Ejercicio2](/tema1/LENGUAJE/DE/MARCAS.xml)|Ejercicio 2
+[Ejercicio3](/tema1/svg.xml)|Ejercicio 3
