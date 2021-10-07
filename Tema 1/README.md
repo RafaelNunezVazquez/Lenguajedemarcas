@@ -12,7 +12,7 @@ _italica_
 
 [Enlace Github](http://github.com)
 
-![Tux](/logotipo/TUX.png)
+![Tux](logotipo/TUX.png)
 
 1. elemento 1
 2. elemento 2
