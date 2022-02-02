@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web4ucss</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <style>
+        body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+        .w3-bar-block .w3-bar-item {padding:20px}
+    
+        .img2{
+            float: left;
+            width: auto;height: 150px;
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box ;
+        }
+        .botonfijado {
+        position: static;
+        width: 33%;
+        margin-left: 37%;
+        margin-right: auto;
+        background-color: darkolivegreen;
+        color:white;
+
+
+        }
+    </style>
+  
+</head>
+<body>
+    <!-- Sidebar (hidden by default) -->
+     <!-- Lista lateral oculta -->
+     <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:30%;min-width:300px" id="mySidebar">
+        <a style="background-color: darkolivegreen;color:white" href="javascript:void(0)" onclick="w3_close()"class="w3-bar-item w3-button">Cerrar</a>
+        <a style="background-color: darkolivegreen;color:white" href="Htmlejemplos.html" onclick="w3_close()" class="w3-bar-item w3-button">
+        <img class="img2" src="HTMLimg.png" alt="HTML"> </a>
+        <a style="background-color: darkolivegreen;color:white" href="svgejemplos.html"w3_close() class="w3-bar-item w3-button">
+            <img class="img2" src="SVGimg.png" alt="HTML"></a>
+        </a>
+        <a style="background-color: darkolivegreen;color:white" href="cssejemplo.html" onclick="w3_close()" class="w3-bar-item w3-button">
+            <img class="img2" src="cssimg.png" alt="HTML"></a>
+        </a>
+        <a style="background-color: darkolivegreen;color:white" href="Mainweb4u.html" onclick="w3_close()" class="w3-bar-item w3-button">Menú principal</a>
+      </nav> 
+        
+        <!-- Top menu -->
+        <div class="w3-top" style="background-color: darkolivegreen;color:white">
+            <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+              <div style="background-color: darkolivegreen;color:white" class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+              
+              <div style="background-color: darkolivegreen;color:white" class="w3-center w3-padding-16"> 
+                <a style="text-decoration: none;" href="Mainweb4u.html" alt="web4u">Web4u</a>
+                <div style="float: right;" id="google_translate_element" class="google"></div>
+              </div>
+            </div>
+          </div>
+       
+    <!-- Contenido de la pagina-->
+    
+    <div class="w3-main w3-content w3-white" style="max-width:100%;margin-top:65px">
+        
+      <h3 style="background-color: darkolivegreen;color:white; text-align: center;">En esta página veremos algunas etiquetas CSS y algún ejemplo</h3>
+        <h3 style="background-color: darkolivegreen;color:white;">Cambiar color de fuente y fondo</h3>
+        <a class="w3-button botonfijado " style="background-color: darkolivegreen;color:white; border-radius: 5px;" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_color_bg">W3Schools</a>
+        <pre>
+
+            &lt;head&gt;
+            &lt;style&gt;
+                &lt;body {
+                  background-color: lightgrey;
+                  color: blue;
+                }
+                
+                h1 {
+                  background-color: black;
+                  color: white;
+                }
+                
+                div {
+                  background-color: blue;
+                  color: white;
+                }
+                &lt;/style&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                
+                &lt;h1>This is a Heading&lt;/h1&gt;
+                &lt;p>This page has a grey background color and a blue text.&lt;/p&gt;
+                &lt;div>This is a div.&lt;/div&gt;
+                
+                &lt;/body&gt;
+
+        </pre>
+        <h3 style="background-color: darkolivegreen;color:white;">Ponemos la imagen a la izquierda, acompañando al texto</h3>
+        <a class="w3-button botonfijado" style="background-color: darkolivegreen;color:white; border-radius: 5px;" href="https://www.w3schools.com/css/css_float.asp">W3Schools</a>  
+          
+          <ul style="background-color: darkolivegreen;color:white;">
+              <br>
+              <li >left: el elemento flota a la izquierda de su contenedor</li>
+              <br>
+              <li >right: el elemento flota a la derecha de su contenedor</li>
+              <br>
+              <li >none: el elemento no flota (se mostrará justo donde aparece en el texto). Esto es predeterminado</li>
+              <br>
+              <li> heredar: el elemento hereda el valor flotante de su par</li>
+           </ul>
+           
+           <pre>
+         
+            &lt;style&gt;
+                img {
+                  float: none;
+                }
+                &lt;/style&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                
+                &lt;h2>Float None/h2&gt;
+                
+                &lt;p&gt;In this example, the image will be displayed just where it occurs in the text (float: none;).&lt;/p&gt;
+                
+                &lt;p>&lt;img src="pineapple.jpg" alt="Pineapple" style="width:170px;height:170px;"
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            
+          </pre>
+        
+        <h3 style="background-color: darkolivegreen;color:white;">Centrar una imagen </h3>
+        <a class="w3-button botonfijado" style="background-color: darkolivegreen;color:white; border-radius: 5px;" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_align_image">W3Schools</a>
+        Para centrar una imagen, ponga el margen izquierdo y derecho en automático y conviértalo en un elemento de bloque:
+        <pre>
+          Para centrar una imagen, ponga el margen izquierdo y derecho en automático y conviértalo en un elemento de bloque:
+            &lt;head&gt;
+            &lt;style&gt;
+                img {
+                  display: block;
+                  margin-left: auto;
+                  margin-right: auto;
+                }
+                &lt;/style&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                
+                &lt;h2>Center an Image/h2&gt;
+                &lt; p>To center an image, set left and right margin to auto, and make it into a block element.&lt;/p&gt;
+                
+                &lt;img src="paris.jpg" alt="Paris" style="width:40%"&gt;
+                
+                &lt;/body&gt;
+        </pre>
+        
+        
+        <h3 style="background-color: darkolivegreen;color:white;">Link de boton</h3>
+        <a class="w3-button botonfijado" style="background-color: darkolivegreen;color:white; border-radius: 5px;" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_link_advanced">W3Schools</a>
+        
+        <pre>
+
+            &lt;head&gt;
+            &lt;style&gt;
+                a:link, a:visited {
+                  background-color: #f44336;
+                  color: white;
+                  padding: 14px 25px;
+                  text-align: center;
+                  text-decoration: none;
+                  display: inline-block;
+                }
+                
+                a:hover, a:active {
+                  background-color: red;
+                }
+                &lt;/style&gt;
+                &lt;/head&gt;
+                &lt;body&gt;                
+                &lt;h2>Link Button&lt;/h2&gt;
+                &lt;p>A link styled as a button:&lt;/p&gt;
+                &lt;a href="default.asp" target="_blank">This is a link&lt;/a&gt;
+                &lt;/body&gt;
+            </pre>
+
+            <h3 style="background-color: darkolivegreen;color:white;">The position property specifies the type of positioning method used for an element. </h3>
+            <a class="w3-button botonfijado" style="background-color: darkolivegreen;color:white; border-radius: 5px;" href="https://www.w3schools.com/css/css_positioning.asp">W3Schools</a>
+            <div style="background-color: darkolivegreen;color:white;">
+              There are five different position values:
+              <ul>
+                <li style="background-color: darkolivegreen;color:white;">&lt;static&gt;</li>
+                <li style="background-color: darkolivegreen;color:white;">&lt;relative&gt;</li>
+                <li style="background-color: darkolivegreen;color:white;">&lt;fixed&gt;</li>
+                <li style="background-color: darkolivegreen;color:white;">&lt;absolute&gt;</li>
+                <li style="background-color: darkolivegreen;color:white;">&lt;sticky&gt;</li>
+            </ul>
+            </div>
+                <pre>
+            <h3 style="background-color: darkolivegreen;color:white;">position: static;</h3> 
+            
+            &lt;head&gt;
+            &lt;style&gt;
+              div.static {
+                position: static;
+                border: 3px solid #73AD21;
+              }
+              &lt;/style&gt;
+              &lt;/head&gt;
+              &lt;body&gt;              
+              &lt;h2>position: static;&lt;/h2&gt;              
+              &lt;pAn element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page:&lt;/p&gt;             
+              &lt;div class="static"&gt;
+              This div element has position: static;
+              &lt;/div&gt;              
+              &lt;/body&gt;
+
+              <h3 style="background-color: darkolivegreen;color:white;">position: relative;</h3> 
+
+              &lt;head&gt;
+              &lt;style&gt;
+                div.relative {
+                  position: relative;
+                  left: 30px;
+                  border: 3px solid #73AD21;
+                }
+                &lt;/style&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                &lt;h2>position: relative;&lt;/h2&gt;
+                &lt;p>An element with position: relative; is positioned relative to its normal position:&lt;/p&gt;
+                &lt;div class="relative"&gt;
+                This div element has position: relative;
+                &lt;/div&gt;                
+                &lt;/body&gt;
+
+              <h3 style="background-color: darkolivegreen;color:white;">position: fixed;</h3> 
+              
+              &lt;head&gt;
+              &lt;style&gt;
+                div.fixed {
+                  position: fixed;
+                  bottom: 0;
+                  right: 0;
+                  width: 300px;
+                  border: 3px solid #73AD21;
+                }
+                &lt;/style&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                
+                &lt;h2>position: fixed;&lt;/h2&gt;
+                
+                &lt;p&gt;An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled:&lt;/p&gt;
+                
+                &lt;div class="fixed"&gt;
+                This div element has position: fixed;
+                &lt;/div&gt;
+                
+                &lt;/body&gt;
+
+                <h3 style="background-color: darkolivegreen;color:white;">position: absolute;</h3> 
+                
+                &lt;head&gt;
+                &lt;style&gt;
+                  div.relative {
+                    position: relative;
+                    width: 400px;
+                    height: 200px;
+                    border: 3px solid #73AD21;
+                  } 
+                  
+                  div.absolute {
+                    position: absolute;
+                    top: 80px;
+                    right: 0;
+                    width: 200px;
+                    height: 100px;
+                    border: 3px solid #73AD21;
+                  }
+                  &lt;/style&gt;
+                  &lt;/head&gt;
+                  &lt;body&gt;                 
+                  &lt;h2position: absolute;&lt;/h2&gt;                  
+                  &lt;p&gt;An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed):&lt;/p&gt;                
+                  &lt;div class="relative"&gt;This div element has position: relative;
+                  &lt;div class="absolute"&gt;This div element has position: absolute;&lt;/div&gt;
+                    &lt;/div&gt;                 
+                  &lt;/body&gt;
+
+
+                  <h3 style="background-color: darkolivegreen;color:white;">position: sticky;</h3> 
+
+
+                  &lt;head&gt;
+                  &lt;style&gt;
+                    div.sticky {
+                      position: -webkit-sticky;
+                      position: sticky;
+                      top: 0;
+                      padding: 5px;
+                      background-color: #cae8ca;
+                      border: 2px solid #4CAF50;
+                    }
+                    &lt;/style&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                    
+                    &lt;p&gt;Try to &lt;b&gt;scroll&lt;/b&gt; inside this frame to understand how sticky positioning works.&lt;/p&gt;
+                    
+                    &lt;div class="sticky"&gt;I am sticky!&lt;/div&gt;
+                    
+                    &lt;div style="padding-bottom:2000px"&gt;
+                    &lt;p&gt;In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.&lt;/p&gt;
+                    &lt;p&gt;Scroll back up to remove the stickyness.&lt;/p&gt;
+                    &lt;p&gt;Some text to enable scrolling.. Lorem ipsum dolor sit amet, &lt;/p&gt;
+                    &lt;p&gt;Some text to enable scrolling.. Lorem ipsum dolor sit amet, &lt;/p&gt;
+                      &lt;/div&gt;
+                    &lt;/body
+
+            </pre>
+
+            
+
+    </div>
+
+
+         <!-- Pie de pagina -->
+      <footer style="background-color:darkolivegreen;color:white" class="w3-row-padding w3-padding-16">
+        <h2 style="text-align: center;">Enlaces de interes</h2>
+        <div style="background-color: darkolivegreen;color:white" class="w3-third">
+        <h3 style="text-align: center;">HTML</h3>
+        <br>
+        <ul>
+            <li><a href="https://www.codecademy.com/catalog/language/html-css">Codeacademy.com</a></li>
+            <li><a href="https://www.w3schools.com/html">W3Scools.com</a></li>
+            <li><a href="https://progate.com">Progate.com</a></li>
+            <li><a href="https://es.khanacademy.org/computing/computer-programming/html-css">khanacademy.org</a></li>
+        </ul>
+    </div>
+  
+    <div style="background-color: darkolivegreen;color:white" class="w3-third">
+        <h3 style="text-align: center;"> CSS</h3>
+        <br>
+        <ul>
+            <li><a href="https://www.w3schools.com/css">W3Schools.com</a></li>
+            <li><a href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/CSS_basics">MDNWebDocs.org</a></li>
+            <li><a href="https://www.456bereastreet.com">456bereastreet.com</a></li>
+            <li><a href="https://htmldog.com/guides/css/">HTMLDog.CSSTutorials.com</a></li>
+        </ul>
+    </div>
+    <div style="background-color: darkolivegreen;color:white" class="w3-third">
+        <h3 style="text-align: center;">SVG</h3>
+        <br>
+        <ul>
+            <li><a href="https://www.w3schools.com/graphics/svg_intro.asp">W3Schools.com</a></li>
+            <li><a href="https://cocomaterial.com">Cocomaterial.com</a></li>
+            <li><a href="https://game-icons.net">Gameicons.net</a></li>
+            <li><a href="https://thenounproject.com">thenounproject.com</a></li>
+        </ul>
+    </div>
+
+  </footer> 
+    <script>
+    // Script to open and close sidebar
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+    }
+     
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+    </script>
+
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'ca,eu,gl,en,fr,it,pt,de', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true}, 'google_translate_element');
+      }
+  </script>
+
+  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</body>
+</html>
