@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio24</title>
+</head>
+<body>
+    <h2>Rellena tu curriculum Vitae</h2>
+
+    <form action="phpformulario24.php" method="get">
+        <fieldset>
+            <legend>curriculum Vitae</legend>
+            <label for="name">Nombre:</label><br>
+            <input type="text" id="name" value="Ingresa aquí tu nombre" maxlength="30"><br><br>
+            <label for="apellido">Apellidos:</label><br>
+            <input type="text" id="apellido" value="Ingresa aqui tu apellido" maxlength="80"><br><br>
+            <label for="constraseña">Contraseña:</label><br>
+            <input type="password" id="name" value="Ingresa aqui tu constraseña" maxlength="10"><br><br>
+            <label for="dni">DNI:</label><br>
+            <input type="text" maxlength="9" id="dni" value="Introduce aquí tu DNI"><br><br> 
+            <p>Sexo:</p>
+            <input type="radio" id="sexo" value="Hombre" name="sexo">
+            <label for="sexo">Hombre</label><br>
+            <input type="radio" id="sexo" value="Mujer" name="sexo">
+            <label for="sexo">Mujer</label><br><br>
+            <label for="foto">Incluir mi foto:</label>
+            <input type="url" >
+            <input type="file" value="Elegir imagen">
+            <br> <br>
+            <input type="checkbox" checked> Suscribirme al boletín de novedades <br> <br>
+
+            <input type="submit" value="Guardar cambios"> <input type="reset" value="Borrar los datos introducidos">
+        </fieldset>
+    </form>
+
+</body>
+</html>

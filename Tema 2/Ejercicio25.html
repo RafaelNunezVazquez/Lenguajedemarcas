@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio25</title>
+</head>
+<body>
+    <h2>Rellena tu curriculum Vitae</h2>
+
+    <form action="phpformulario24.php" method="get">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="provincia">Provincia:</label><br>
+            <select type="text" id="provincia" value=" - Selecciona - ">
+                <option>Huelva</option>
+                <option>Cadiz</option>
+                <option>Sevilla</option>
+                <option>Cordoba</option>
+                <option>Jaén</option>
+            </select>   <br><br>
+            <label for="fecha">Fecha de nacimiento:</label><br>
+            <input type="date" id="fecha" value=" - Selecciona -"><br><br>
+            <label for="temas">Temas de interés:</label> 
+            <input list="temas" name="temas"> <br>
+            <datalist type="text" id="temas">
+                <option>Administración y finanzas</option>
+                <option>Análisis y programación</option>
+                <option>Arquitectura</option>
+                <option>Calidad</option>
+                <option>ERP,CMP, business intelligence</option>
+                <option></option>
+            </datalist>
+            <br> <br>
+
+            <input type="submit" value="Guardar cambios"> <input type="reset" value="Borrar los datos introducidos">
+        </fieldset>
+    </form>
+
+</body>
+</html>
