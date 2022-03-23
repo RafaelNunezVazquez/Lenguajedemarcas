@@ -8,5 +8,25 @@
 </head>
 <body>
     
+    <div class="row">
+
+    </div>
+
+    <div class="sm-4 text-center bg-dark  my-0">
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="comidaAmericana">Americana</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="comidaItaliana">Italiana</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="comidaEspañola">Española</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="comidaChina">China</a>
+            </li>
+        </ul>
+    </div>
 </body>
 </html>
