@@ -9,18 +9,33 @@
 </head>
 <body>
     
-    <h1 style="text-align: center;">Esta pagina te muestra algunos coches que me gustan</h1>
+    <h1 style="text-align: center;">Este boton muestra algunos coches que me gustan</h1>
 
-    <select id="cars" onchange="cambiaCoche()">
+        <select id="cars" onchange="cambiaCoche(document.getElementById('cars').value)">
+        
+            <option value="imgJS03/mercedes.jpg">mercedes</option>
+            <option value="imgJS03/bmwi7.jpg">bmwi7</option>
+            <option value="imgJS03/discovery.jpeg">Discovery</option>
+            <option value="imgJS03/chevroletcamaro.jpg">chevroletcamaro</option>
+        
+        </select>
+
+    <img id="img_cars" style="height: 400px;width: 650px;" src="imgJS03/mercedes.jpg"> 
+
+    <h1 style="text-align: center;">Este boton muestra algunas fotos de spiderman que me gustan</h1>
+
+    <img id="img_spiderman" src="imgJS03/Spiderman-1.jpg" style="height: 400px; width: 650px;">
     
-        <option value="imgJS03/mercedes.jpg">mercedes</option>
-        <option value="imgJS03/bmwi7.jpg">bmwi7</option>
-        <option value="imgJS03/discovery.jpeg">Discovery</option>
-        <option value="imgJS03/chevroletcamaro.jpg">chevroletcamaro</option>
+    <select id="spiderman" onchange="cambiaSpiderman(document.getElementById('spiderman').value)">
+        
+        <option value="imgJS03/Spiderman-1.jpg">Spiderman 1</option>
+        <option value="imgJS03/Spiderman-2.jpg">Spiderman 2</option>
+        <option value="imgJS03/Spiderman-3.jpeg">Spiderman 3</option>
+        <option value="imgJS03/Spiderman-4.jpg">Spiderman 4</option>
     
     </select>
 
-<img id="demo" style="height: 600px;width: 850px;" src="imgJS03/mercedes.jpg">
+
 
 </body>
 </html>

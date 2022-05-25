@@ -15,10 +15,13 @@ function cambiaParrafo() {
 
 
 function cambiaCoche(nombre) { 
+
+  document.getElementById("img_cars").src = nombre; 
   
-  var x = document.getElementById('cars').value ;
-  document.getElementById("demo").src = x; 
-  
+}
+
+function cambiaSpiderman(nombre) {
+  document.getElementById('img_spiderman').src = nombre; 
 }
 
 
