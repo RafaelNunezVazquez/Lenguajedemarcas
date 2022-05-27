@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Kahoot</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div id="question"></div>
+        <div id="boton-respuesta" class="btn-grid">
+
+            <button class="btn" id="1" onclick="avanza_respuesta1">Primera respuesta</button>
+            <button class="btn" id="2" onclick="avanza_respuesta2">Segunda respuesta</button>
+            <button class="btn" id="3" onclick="avanza_respuesta3">Tercera respuesta</button>
+            <button class="btn" id="4" onclick="avanza_respuesta4">Cuarta respuesta</button>
+
+        </div>
+
+    </div>
+
+    <div class="boton-control">
+
+        <button id="boton-avanza" class="next-btn">Siguiente</button>
+
+    </div>
+
+    <script>
+
+        function proxima_pregunta(){
+
+            const xhttp = new XMLHttpRequest();
+            xhttp.onload = function () {
+
+                const xmlDoc = this.responseXML;
+                const x = xmlDoc.getElementsByTagName("question");
+
+                    boton_1 = x[i].getElementsByTagName("choices")[0].getElementsByTagName("choice")[0].childnodes[0].nodevalue;
+                    boton_1 = x[i].getElementsByTagName("choices")[0].getElementsByTagName("choice")[0].childnodes[0].nodevalue;
+                    boton_1 = x[i].getElementsByTagName("choices")[0].getElementsByTagName("choice")[0].childnodes[0].nodevalue;
+                    boton_1 = x[i].getElementsByTagName("choices")[0].getElementsByTagName("choice")[0].childnodes[0].nodevalue;
+                    
+                    pregunta = x[i].getElementsByTagName("wording")[0].childnodes[0].nodevalue;
+
+                    document.getElementById("question").innerHTML = pregunta;
+                }
+
+        }
+
+        xhttp.open("GET","1..proyecto_XML");
+
+    </script>
+
+</body>
+</html>

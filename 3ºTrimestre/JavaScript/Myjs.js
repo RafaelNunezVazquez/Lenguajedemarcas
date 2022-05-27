@@ -24,6 +24,36 @@ function cambiaSpiderman(nombre) {
   document.getElementById('img_spiderman').src = nombre; 
 }
 
+var marcacoche = "Mercedes";
+
+var numero1 = "1";
+
+var txt = "No se que escribirte aquí" ;
+
+var variable = "La vida la vida es";
+
+function muestramarca(){
+
+    document.getElementById("demo").innerHTML= marcacoche;
+
+}
+
+function muestramarca_1(){
+
+  document.getElementById("numero").innerHTML= numero1;
+
+}
+function muestramarca_2(){
+
+  document.getElementById("texto_cualquiera").innerHTML= txt;
+
+}
+
+function muestramarca_3(){
+
+  document.getElementById("variable_cualquiera").innerHTML= variable;
+
+}
 
 (function citascelebres(quote) {
   const quotes = [
@@ -70,3 +100,4 @@ function cambiaSpiderman(nombre) {
   });
 })();
  
+
