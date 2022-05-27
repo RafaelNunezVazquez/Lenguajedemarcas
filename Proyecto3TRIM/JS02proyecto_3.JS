@@ -55,6 +55,10 @@ function myFunction2(xml, i) {
   document.getElementById("boton4").innerHTML = rr4;
 }
 
+
+function reinicio() {
+  location.reload();
+}
 window.onload = updateClock;
 var totalTime = 60;
 function updateClock() {
@@ -65,7 +69,4 @@ function updateClock() {
     totalTime -= 1;
     setTimeout("updateClock()", 1000);
   }
-}
-function reinicio() {
-  location.reload();
 }

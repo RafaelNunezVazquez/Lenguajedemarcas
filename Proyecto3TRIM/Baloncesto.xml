@@ -11,309 +11,311 @@
     <!ATTLIST choice correct (yes|no) "no">
 ]>
 
-    <question id="question_1">
+<test>
 
-            <wording>¿Con cuántos jugadores se juega el baloncesto?</wording>
+  <question id="question_1">
+
+    <wording>¿Con cuántos jugadores se juega el baloncesto?</wording>
+
+    <choices>
+
+        <choice correct="yes">Cada equipo está formado por 12 jugadores, 7 en el banquillo y 5 en cancha.</choice>
+        <choice correct="no">12 jugadores 7 jugando y 5 en el banquillo</choice>
+        <choice correct="no">14 jugadores 9 banquillo y 5 jugando</choice>
+        <choice correct="no">Ninguna de las anteriores es correcta</choice>
+
+    </choices>
+
+  </question>
+
+  <question id="question_2">
+
+    <wording>¿Qué equipo se fundó primero en el baloncesto español?</wording>
+
+      <choices>
+
+          <choice correct="yes">Layetano(Laietá Basket Club)</choice>
+          <choice correct="no">Real Madrid</choice>
+          <choice correct="no">CB Canarias</choice>
+          <choice correct="no">CB Valencia</choice>
+
+      </choices>
+
+  </question>
+
+  <question id="question_3">
+
+          <wording>¿Cuánto dura una prórroga en el baloncesto?</wording>
+
+      <choices>
+
+          <choice correct="yes">6 minutos</choice>
+          <choice correct="no">5 mintuos</choice>
+          <choice correct="no">10 minutos</choice>
+          <choice correct="no">20 minutos</choice>
+
+      </choices>
+
+  </question>
+
+  <question id="question_4">
+
+          <wording>¿Qué equipo fue campeón de Europa en la Final Four de 2016?</wording>
+
+          <choices>
+
+              <choice correct="yes">CSKA</choice>
+              <choice correct="no">Barcelona</choice>
+              <choice correct="no">Real Madrid </choice>
+              <choice correct="no">Olympiacos</choice>
+
+          </choices>
+
+  </question>
+
+  <question id="question_5">
+
+    <wording>¿Cuántos puntos suponen un tiro convertido si el jugador está pisando la línea de 3 puntos?</wording>
+
+      <choices>
+
+          <choice correct="yes">2 puntos</choice>
+          <choice correct="no">3 puntos</choice>
+          <choice correct="no">1 punto</choice>
+          <choice correct="no">5 puntos</choice>
+
+      </choices>
+
+  </question>
+
+  <question id="question_6">
+
+    <wording>¿Cuántos segundos dura como máximo una posesión en baloncesto?</wording>
+
+      <choices>
+
+          <choice correct="yes">24 segundos</choice>
+          <choice correct="no">20 segundos</choice>
+          <choice correct="no">16 segundos</choice>
+          <choice correct="no">12 segundos</choice>
+
+      </choices>
+
+  </question>
+
+
+  <question id="question_7">
+
+    <wording>¿Cuál de estos jugadores no formó parte del Dream Team USA de los Juegos Olímpicos de Barcelona 92?</wording>
+
+      <choices>
+
+          <choice  correct="yes">Isiah Thomas</choice>
+          <choice correct="no">Michael Jordan</choice>
+          <choice correct="no">Christan Laetthner</choice>
+          <choice correct="no">Kobe Bryant</choice>
+
+      </choices>
+
+  </question>
+
+
+  <question id="question_8">
+
+    <wording>LeBron James y Stephen Curry, dos de las mayores estrellas de la NBA, nacieron en la misma localidad. ¿Dónde?</wording>
+
+          <choices>
+
+          <choice correct="yes">Akron</choice>
+          <choice correct="no">Los Angeles</choice>
+          <choice correct="no">Chicago</choice>
+          <choice correct="no">Orlando</choice>
+
+          </choices>
+
+  </question>
+
+
+  <question id="question_9">
+
+    <wording>¿Qué equipo tiene más títulos de la NBA?</wording>
 
         <choices>
 
-            <choice correct="yes">Real Madrid</choice>
-            <choice correct="no">Manchester United</choice>
-            <choice correct="no">Juventus</choice>
-            <choice correct="no">F.C.Barcelona</choice>
+          <choice correct="yes">Boston Celtics</choice>
+          <choice correct="no">Chicago Bulls</choice>
+          <choice correct="no">Los Angeles Lakers</choice>
+          <choice correct="no">San Antonio Spurs</choice>
 
         </choices>
 
-    </question>
+  </question>
 
-    <question id="question_2">
+  <question id="question_10">
 
-      <wording>¿Qué equipo se fundó primero?</wording>
+    <wording>¿Qué posición suele tener el jugador que juega mucho en el poste bajo?</wording>
 
         <choices>
 
-            <choice correct="yes">R.C.R.H El Recre</choice>
-            <choice correct="no">Alavés</choice>
-            <choice correct="no">Athletic Club de Bilbao</choice>
-            <choice correct="no">Real Valladolid</choice>
+          <choice correct="yes">Pivot</choice>
+          <choice correct="no">Base</choice>
+          <choice correct="no">Alero</choice>
+          <choice correct="no">Escolta</choice>
 
         </choices>
 
-    </question>
+  </question>
 
-    <question id="question_3">
+  <question id="question_11">
 
-            <wording>¿Qué equipo nunca descendió de primera en la liga española?</wording>
+    <wording>¿Cuál era la posición natural de Magic Johnson (2,06 m)?</wording>
+
+          <choices>
+
+          <choice correct="yes">Base</choice>
+          <choice correct="no">Pivot</choice>
+          <choice correct="no">Escolta</choice>
+          <choice correct="no">Alero</choice>
+
+          </choices>
+
+  </question>
+
+  <question id="question_12">
+
+    <wording>¿Cuanto ha de medir un campo de baloncesto?</wording>
+
+      <choices>
+
+        <choice correct="yes"<30 x 15 m</choice>
+        <choice correct="no">20 x 15 metros</choice>
+        <choice correct="no">28 x 15 metros</choice>
+        <choice correct="no">100 x 20 metros</choice>
+
+      </choices>
+
+  </question>
+
+  <question id="question_13">
+
+    <wording>¿Que sucede a partir de que un equipo supera la 4 falta personal de equipo?</wording>
+
+          <choices>
+
+          <choice correct="yes">Que en cada falta personal han de tirarse 2 tiros libres.</choice>
+          <choice correct="no">	Que el partido se acaba.</choice>
+          <choice correct="no">	Que ese equipo juega con 1 jugador menos.</choice>
+          <choice correct="no">Nada</choice>
+
+          </choices>
+
+  </question>
+
+  <question id="question_14">
+
+    <wording>¿Cuanto dura un partido de baloncesto ?</wording>
 
         <choices>
 
-            <choice correct="yes">Athletic Club de BIlbao</choice>
-            <choice correct="no">Malaga C.F</choice>
-            <choice correct="no">Betis</choice>
-            <choice correct="no">Atlético De Madrid</choice>
+          <choice correct="yes">4 tiempos de 10 minutos.</choice>
+          <choice correct="no">4 tiempos de 8 minutos.</choice>
+          <choice correct="no">	3 tiempos de 15 minutos.</choice>
+          <choice correct="no">	2 tiempos de 45 minutos.</choice>
 
         </choices>
 
-    </question>
+  </question>
 
-    <question id="question_4">
+  <question id="question_15">
 
-            <wording>Selecciona el equipo con más UEFA europa league</wording>
+    <wording>¿Qué es una falta personal?</wording>
 
-            <choices>
+          <choices>
 
-                <choice correct="yes">Sevilla F.C</choice>
-                <choice correct="no">Manchester United</choice>
-                <choice correct="no">Roma </choice>
-                <choice correct="no">Olympique De Lyon</choice>
+          <choice correct="yes">Es una falta de un jugador que implica un contacto con un adversario, esté el balón vivo o muerto.</choice>
+          <choice correct="no">Una falta hecha cuando no hay balon en juego</choice>
+          <choice correct="no">Una falta hecha cuando hay balon en juego</choice>
+          <choice correct="no">Ninguna de las anteriores es correcta</choice>
 
-            </choices>
+          </choices>
 
-    </question>
+  </question>
 
-    <question id="question_5">
+  <question id="question_16">
 
-      <wording>Selecciona el equipo con mas copas del rey</wording>
+    <wording>¿Puede un jugador pasar el balón a su propio campo despues de haber superado el medio campo?</wording>
 
-        <choices>
+      <choices>
 
-            <choice  correct="yes">F-C Barcelona</choice>
-            <choice correct="no">Athletic Club de Bilbao</choice>
-            <choice correct="no">Real Madrid</choice>
-            <choice correct="no">Atlético De Madrid</choice>
+        <choice correct="yes">No, es campo atras.</choice>
+        <choice correct="no">Si, no pasa nada</choice>
+        <choice correct="no">Si, para piropear a los jueces</choice>
+        <choice correct="no">Depende del dia</choice>
 
-        </choices>
+      </choices>
 
-    </question>
+  </question>
 
-    <question id="question_6">
+  <question id="question_17">
 
-      <wording>¿Quién es el que más corre de la liga española?</wording>
+    <wording>¿Como se ejecuta el saque de centro, al inicio de cada parte, en un partido de baloncesto?</wording>
 
-        <choices>
+      <choices>
 
-            <choice correct="yes">Iñaki Williams</choice>
-            <choice correct="no">Gareth Bale</choice>
-            <choice correct="no">Depay</choice>
-            <choice correct="no">Jordi Alba</choice>
+        <choice correct="yes">Mediante el salto entre 2 jugadores de equipos distintos.</choice>
+        <choice correct="no">Mediante un saque de banda.</choice>
+        <choice correct="no">Haciendo un tiro a canasta.</choice>
+        <choice correct="no">	Realizando un pase a un compañero.</choice>
 
-        </choices>
+      </choices>
 
-    </question>
+  </question>
 
+  <question id="question_18">
 
-    <question id="question_7">
+    <wording>¿Puede un jugador sujetar a otro que no tiene el balón?</wording>
 
-      <wording>¿Cuál es el equipo que ha perdido más finales de la Champions?</wording>
+          <choices>
 
-        <choices>
+          <choice correct="yes">No, es falta.</choice>
+          <choice correct="no">	Si, pero no muy fuerte.</choice>
+          <choice correct="no">	Si, si no tiene el balón.</choice>
+          <choice correct="no">Si, para meterle un deo mojao en la oreja</choice>
 
-            <choice  correct="yes">Juventus</choice>
-            <choice correct="no">Real Madrid</choice>
-            <choice correct="no">F.C.Barcelona</choice>
-            <choice correct="no">Chelsea</choice>
+          </choices>
 
-        </choices>
+  </question>
 
-    </question>
+  <question id="question_19">
 
+    <wording>Cuando un jugador bota el balon lo coge y lo vuelve a botar. ¿Que pita el arbitro?</wording>
 
-    <question id="question_8">
+          <choices>
 
-      <wording></wording>
+          <choice correct="yes">Dobles</choice>
+          <choice correct="no">Canasta</choice>
+          <choice correct="no">Nada</choice>
+          <choice correct="no">Ninguna de las anteriores es correcta</choice>
 
-            <choices>
+          </choices>
 
-            <choice correct="yes"></choice>
-            <choice correct="no"></choice>
-            <choice correct="no"></choice>
-            <choice correct="no"></choice>
+  </question>
 
-            </choices>
+  <question id="question_20">
 
-    </question>
+    <wording>¿Cuantos pasos con el balón en las manos se pueden dar en baloncesto?</wording>
 
+          <choices>
 
-    <question id="question_8">
+          <choice correct="yes">2 pasos</choice>
+          <choice correct="no">3 pasos</choice>
+          <choice correct="no">4 pasos</choice>
+          <choice correct="no">1 paso</choice>
 
-      <wording></wording>
+          </choices>
 
-            <choices>
-
-            <choice correct="yes"></choice>
-            <choice correct="no"></choice>
-            <choice correct="no"></choice>
-            <choice correct="no"></choice>
-
-            </choices>
-
-    </question>
-
-    <question id="question_8">
-
-      <wording></wording>
-
-            <choices>
-
-            <choice correct="yes"></choice>
-            <choice correct="no"></choice>
-            <choice correct="no"></choice>
-            <choice correct="no"></choice>
-
-            </choices>
-
-    </question>
-
-    <question id="question_8">
-
-      <wording></wording>
-
-            <choices>
-
-            <choice correct="yes"></choice>
-            <choice correct="no"></choice>
-            <choice correct="no"></choice>
-            <choice correct="no"></choice>
-
-            </choices>
-
-    </question>
-
-    <question id="question_8">
-
-      <wording></wording>
-
-            <choices>
-
-            <choice correct="yes"></choice>
-            <choice correct="no"></choice>
-            <choice correct="no"></choice>
-            <choice correct="no"></choice>
-
-            </choices>
-
-    </question>
-
-    <question id="question_8">
-
-      <wording></wording>
-
-            <choices>
-
-            <choice correct="yes"></choice>
-            <choice correct="no"></choice>
-            <choice correct="no"></choice>
-            <choice correct="no"></choice>
-
-            </choices>
-
-    </question>
-
-    <question id="question_8">
-
-      <wording></wording>
-
-            <choices>
-
-            <choice correct="yes"></choice>
-            <choice correct="no"></choice>
-            <choice correct="no"></choice>
-            <choice correct="no"></choice>
-
-            </choices>
-
-    </question>
-
-    <question id="question_8">
-
-      <wording></wording>
-
-            <choices>
-
-            <choice correct="yes"></choice>
-            <choice correct="no"></choice>
-            <choice correct="no"></choice>
-            <choice correct="no"></choice>
-
-            </choices>
-
-    </question>
-
-    <question id="question_8">
-
-      <wording></wording>
-
-            <choices>
-
-            <choice correct="yes"></choice>
-            <choice correct="no"></choice>
-            <choice correct="no"></choice>
-            <choice correct="no"></choice>
-
-            </choices>
-
-    </question>
-
-    <question id="question_8">
-
-      <wording></wording>
-
-            <choices>
-
-            <choice correct="yes"></choice>
-            <choice correct="no"></choice>
-            <choice correct="no"></choice>
-            <choice correct="no"></choice>
-
-            </choices>
-
-    </question>
-
-    <question id="question_8">
-
-      <wording></wording>
-
-            <choices>
-
-            <choice correct="yes"></choice>
-            <choice correct="no"></choice>
-            <choice correct="no"></choice>
-            <choice correct="no"></choice>
-
-            </choices>
-
-    </question>
-
-    <question id="question_8">
-
-      <wording></wording>
-
-            <choices>
-
-            <choice correct="yes"></choice>
-            <choice correct="no"></choice>
-            <choice correct="no"></choice>
-            <choice correct="no"></choice>
-
-            </choices>
-
-    </question>
-
-    <question id="question_8">
-
-      <wording></wording>
-
-            <choices>
-
-            <choice correct="yes"></choice>
-            <choice correct="no"></choice>
-            <choice correct="no"></choice>
-            <choice correct="no"></choice>
-
-            </choices>
-
-    </question>
+  </question>
       
-  </test>    
+</test>    
       
       
