@@ -4,55 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto Kahoot</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="miestilo.css"/>
 </head>
 <body>
-    
     <div class="container">
+       
+        <header>
+            <h1>Trivial/kahoot</h1>
+        </header>
 
-        <div id="question"></div>
-        <div id="boton-respuesta" class="btn-grid">
+        <section>
+            <div class="div-izq">
+                <h2>Sobre fútbol</h2>
+                <p>¿Te atreves a responder a unas preguntas sobre fútbol?</p>
+                <a href="./Preguntasfutbol.html">
+                    <div class="buttons">
+                        Jugar
+                    </div>
+                </a>
 
-            <button class="btn" id="1" onclick="avanza_respuesta1">Primera respuesta</button>
-            <button class="btn" id="2" onclick="avanza_respuesta2">Segunda respuesta</button>
-            <button class="btn" id="3" onclick="avanza_respuesta3">Tercera respuesta</button>
-            <button class="btn" id="4" onclick="avanza_respuesta4">Cuarta respuesta</button>
+            </div>
+            <div class="div-der">
+                <h2>Sobre cine</h2>
+                <p>¿Te atreves a responder a unas preguntas sobre cine?</p>
+                <a href="./preguntasbaloncesto.html">
+                    <div class="buttons">
+                        Jugar
+                    </div>
+                </a>
 
-        </div>
+        </section>
 
+        <footer>Pagina creada por Rafael Núñez Vázquez</footer>
     </div>
-
-    <div class="boton-control">
-
-        <button id="boton-avanza" class="next-btn">Siguiente</button>
-
-    </div>
-
-    <script>
-
-        function proxima_pregunta(){
-
-            const xhttp = new XMLHttpRequest();
-            xhttp.onload = function () {
-
-                const xmlDoc = this.responseXML;
-                const x = xmlDoc.getElementsByTagName("question");
-
-                    boton_1 = x[i].getElementsByTagName("choices")[0].getElementsByTagName("choice")[0].childnodes[0].nodevalue;
-                    boton_1 = x[i].getElementsByTagName("choices")[0].getElementsByTagName("choice")[0].childnodes[0].nodevalue;
-                    boton_1 = x[i].getElementsByTagName("choices")[0].getElementsByTagName("choice")[0].childnodes[0].nodevalue;
-                    boton_1 = x[i].getElementsByTagName("choices")[0].getElementsByTagName("choice")[0].childnodes[0].nodevalue;
-                    
-                    pregunta = x[i].getElementsByTagName("wording")[0].childnodes[0].nodevalue;
-
-                    document.getElementById("question").innerHTML = pregunta;
-                }
-
-        }
-
-        xhttp.open("GET","1..proyecto_XML");
-
-    </script>
 
 </body>
 </html>
