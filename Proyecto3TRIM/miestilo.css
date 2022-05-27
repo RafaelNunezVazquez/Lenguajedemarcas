@@ -10,7 +10,7 @@
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
   
-  header {
+header {
     grid-area: h;
     text-align: center;
     padding: 20px 0;

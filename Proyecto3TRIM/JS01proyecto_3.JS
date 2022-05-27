@@ -14,6 +14,19 @@ function cargaPregunta() {
   xhttp.send();
 }
 
+function cargaPreguntar() {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+      if (this.readyState == 4 && this.status == 200) {
+        myFunction(this, i);
+        i++;
+        o++;
+      }
+    };
+    xhttp.open("GET", "FUTBOLproyecto_3.xml", true);
+    xhttp.send();
+}
+
 function myFunction(xml, i) {
   var xmlDoc = xml.responseXML;
   var x = xmlDoc.getElementsByTagName("question");
@@ -35,26 +48,12 @@ function myFunction(xml, i) {
   res = document.getElementById("contador").innerHTML = "Pregunta nº: " + (i + 1);
   punt = document.getElementById("marca_personal").innerHTML = "Puntuación: " + o;
 
-  document.getElementById("muestra_respuesta").innerHTML = q ;
+  document.getElementById("muestra_respuesta").innerHTML = q;
   document.getElementById("boton1").innerHTML = r1;
   document.getElementById("boton2").innerHTML = r2;
   document.getElementById("boton3").innerHTML = r3;
   document.getElementById("boton4").innerHTML = r4;
 }
-
-function cargaPreguntar() {
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function () {
-      if (this.readyState == 4 && this.status == 200) {
-        myFunction(this, i);
-        i++;
-        o++;
-      }
-    };
-    xhttp.open("GET", "FUTBOLproyecto_3.xml", true);
-    xhttp.send();
-  }
-
 
 function reinicio() {
   location.reload();

@@ -11,6 +11,8 @@
     <!ATTLIST choice correct (yes|no) "no">
 ]>
 
+
+
     <question id="question_1">
 
             <wording>¿Que equipo tiene mas copas de europa?</wording>
@@ -43,7 +45,7 @@
 
     <question id="question_3">
 
-            <wording>¿Qué equipo nunca descendió de primera en la liga española?</wording>
+        <wording>¿Qué equipo nunca descendió de primera en la liga española?</wording>
 
         <choices>
 
@@ -58,16 +60,16 @@
 
     <question id="question_4">
 
-            <wording>Selecciona el equipo con más UEFA europa league</wording>
+        <wording>Selecciona el equipo con más UEFA europa league</wording>
 
-            <choices>
+        <choices>
 
-                <choice correct="yes">Sevilla F.C</choice>
-                <choice correct="no">Manchester United</choice>
-                <choice correct="no">Roma </choice>
-                <choice correct="no">Olympique De Lyon</choice>
+            <choice correct="yes">Sevilla F.C</choice>
+            <choice correct="no">Manchester United</choice>
+            <choice correct="no">Roma </choice>
+            <choice correct="no">Olympique De Lyon</choice>
 
-            </choices>
+        </choices>
 
     </question>
 
@@ -122,14 +124,14 @@
 
       <wording>¿Cuanto dura un partido de fútbol?</wording>
 
-            <choices>
+        <choices>
 
             <choice correct="yes">90 Minutos que se disputan en dos partes de 45 minutos cada una</choice>
             <choice correct="no">Dependiendo de la liga la duración varía</choice>
             <choice correct="no">Depende de las ganas que tenga el árbitro de pitar</choice>
             <choice correct="no">Lo acuerda los directivos de los clubes con Florentino Perez y los chinos</choice>
 
-            </choices>
+        </choices>
 
     </question>
 
@@ -138,14 +140,14 @@
 
       <wording>¿Que futbolista tiene el record de goles en partidos oficiales?</wording>
 
-            <choices>
+        <choices>
 
             <choice correct="yes">Cristiano Ronaldo</choice>
             <choice correct="no">Lionel Messi</choice>
             <choice correct="no">Robert Lewandosky</choice>
             <choice correct="no">Neymar JR</choice>
 
-            </choices>
+        </choices>
 
     </question>
 
@@ -153,14 +155,14 @@
 
       <wording>Para que un cambio se efectue correctamente y reanudemos el juego: </wording>
 
-            <choices>
+        <choices>
 
             <choice correct="yes">Es siempre obligatorio que el jugador sustituto entre en el terreno de juego </choice>
             <choice correct="no">No, si se dirige a efectuar un saque de esquina o banda</choice>
             <choice correct="no">No, si se dirige a efectuar un saque de esquina o banda y el árbitro le autoriza a ello.</choice>
             <choice correct="no">Ninguna de las anteriores es correcta</choice>
 
-            </choices>
+        </choices>
 
     </question>
 
@@ -168,14 +170,14 @@
 
       <wording>¿Cuál debe ser la distancia entre el punto penal y el semicírculo del área?</wording>
 
-            <choices>
+        <choices>
 
             <choice correct="yes">9,15 metros</choice>
             <choice correct="no">3 metros</choice>
             <choice correct="no">6 metros</choice>
             <choice correct="no">13 metros</choice>
 
-            </choices>
+        </choices>
 
     </question>
 
@@ -183,14 +185,14 @@
 
       <wording>¿En qué equipo italiano jugó Diego Armando Maradona?</wording>
 
-            <choices>
+        <choices>
 
             <choice correct="yes">Napoles</choice>
             <choice correct="no">Juventus</choice>
             <choice correct="no">Inter de Milan</choice>
             <choice correct="no">Roma</choice>
 
-            </choices>
+        </choices>
 
     </question>
 
@@ -198,14 +200,14 @@
 
       <wording>¿Cuál es la anchura de los postes de las metas?</wording>
 
-            <choices>
+        <choices>
 
             <choice correct="yes">Igual que las líneas de meta</choice>
             <choice correct="no">30 cm de diametro</choice>
             <choice correct="no">15 cm de diametro</choice>
             <choice correct="no">Ninguna de las anteriores es correcta</choice>
 
-            </choices>
+        </choices>
 
     </question>
 
@@ -213,14 +215,14 @@
 
       <wording>¿Quiénes pueden estar en el banquillo del área técnica durante el partido?</wording>
 
-            <choices>
+        <choices>
 
             <choice correct="yes">Los funcionarios oficiales, jugadores sustitutos y sustituidos.</choice>
             <choice correct="no">Sólo el entrenador o la persona que dé instrucciones a los jugadore</choice>
             <choice correct="no">La mascota del equipo, cuerpo técnico y jugadores sustituidos</choice>
             <choice correct="no">Ninguna de las respuestas anteriores es correcta.</choice>
 
-            </choices>
+        </choices>
 
     </question>
 
@@ -228,14 +230,14 @@
 
       <wording>¿Cuanto mide el terreno de juego?</wording>
 
-            <choices>
+        <choices>
 
             <choice correct="yes">90 metros</choice>
             <choice correct="no">120 metros</choice>
             <choice correct="no">80 metros</choice>
             <choice correct="no">El de Oliver y Benji cruza de la Linea a Marrakech</choice>
 
-            </choices>
+        </choices>
 
     </question>
 
@@ -243,14 +245,14 @@
 
       <wording>¿Qué equipo de la Premier League tiene más ligas ganadas?</wording>
 
-            <choices>
+        <choices>
 
             <choice correct="yes">Manchester United</choice>
             <choice correct="no">Chelsea</choice>
             <choice correct="no">Liverpool</choice>
             <choice correct="no">Tottenham</choice>
 
-            </choices>
+        </choices>
 
     </question>
 
@@ -258,14 +260,14 @@
 
       <wording>¿Dónde se jugó la primera copa del mundo?</wording>
 
-            <choices>
+        <choices>
 
             <choice correct="yes">Uruguay</choice>
             <choice correct="no">Chile</choice>
             <choice correct="no">Brasil</choice>
             <choice correct="no">Alemania</choice>
 
-            </choices>
+        </choices>
 
     </question>
 
@@ -273,14 +275,14 @@
 
       <wording>¿A quién se otorga el Balón de Oro?</wording>
 
-            <choices>
+        <choices>
 
             <choice correct="yes">Al mejor futbolista mundial del año.</choice>
             <choice correct="no">Al mejor portero del año</choice>
             <choice correct="no">Al pìchichi de la champions</choice>
             <choice correct="no">Ninguna de las anteriores es correcta</choice>
 
-            </choices>
+        </choices>
 
     </question>
 
@@ -288,14 +290,14 @@
 
       <wording>¿A qué país pertenece la Liga Calcio?</wording>
 
-            <choices>
+        <choices>
 
             <choice correct="yes">Italia</choice>
             <choice correct="no">Francia</choice>
             <choice correct="no">Holanda</choice>
             <choice correct="no">Alemania</choice>
 
-            </choices>
+        </choices>
 
     </question>
 
@@ -303,17 +305,17 @@
 
       <wording>¿Qué equipos españoles protagonizan el denominado Clásico?</wording>
 
-            <choices>
+        <choices>
 
             <choice correct="yes">Madrid y Barcelona</choice>
             <choice correct="no">Madrid y Getafe</choice>
             <choice correct="no">Madrid y Atletico de Madrid</choice>
             <choice correct="no">Atletico de Madrid y Barcelona </choice>
 
-            </choices>
+        </choices>
 
     </question>
       
-  </test>    
+</test>    
       
       
