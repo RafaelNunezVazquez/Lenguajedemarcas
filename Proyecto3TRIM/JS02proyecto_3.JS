@@ -48,7 +48,7 @@ function myFunction2(xml, i) {
   res = document.getElementById("contador").innerHTML = "Pregunta nº: " + (i + 1);
   punt = document.getElementById("marca_personal").innerHTML = "Puntuación: " + o;
 
-  document.getElementById("muestra_respuesta").innerHTML = q;
+  document.getElementById("muestra_respuesta").innerHTML = qq;
   document.getElementById("boton1").innerHTML = rr1;
   document.getElementById("boton2").innerHTML = rr2;
   document.getElementById("boton3").innerHTML = rr3;
@@ -59,6 +59,7 @@ function myFunction2(xml, i) {
 function reinicio() {
   location.reload();
 }
+
 window.onload = updateClock;
 var totalTime = 60;
 function updateClock() {
